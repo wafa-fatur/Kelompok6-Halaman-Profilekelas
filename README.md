@@ -1,6 +1,10 @@
 # KELOMPOK 6 LKPD 5
-ANGGOTA
-1.Wafa 
-2.Fadli
-3.Iman
-4.Raisya
+
+LINK REPOSITORY : https://github.com/wafa-fatur/Kelompok6-Halaman-Profilekelas.git
+
+
+#PROJECT MANAGER :Wafa
+#DEVELOPER :Raisya
+#DEVELOPER :Iman
+#DEVELOPER :FADLI
+#REVIEWER :
