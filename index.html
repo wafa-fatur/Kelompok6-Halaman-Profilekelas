@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - XI RPL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
+    <!-- Navbar (Di-load dari navbar.html / navbar.js) -->
+    <div id="navbar-container"></div>
+
+    <!-- Main Content: Home -->
+    <main class="flex-grow max-w-5xl w-full mx-auto p-6 space-y-8">
+        <!-- Banner Utama -->
+        <section class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-2xl p-8 shadow-lg text-center">
+            <h1 class="text-4xl font-extrabold mb-3">Selamat Datang di Website XI RPL</h1>
+            <p class="text-blue-100 max-w-2xl mx-auto text-lg">
+                Wadah informasi resmi, kegiatan, serta kebersamaan siswa-siswi kelas XI RPL.
+            </p>
+        </section>
+
+        <!-- Pengumuman & Kutipan -->
+        <section class="grid md:grid-cols-2 gap-6">
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <h2 class="text-xl font-bold mb-2 text-blue-600">Pengumuman Terbaru</h2>
+                <p class="text-slate-600">Jadwal piket dan pengerjaan tugas proyek Rekayasa Perangkat Lunak harap diperhatikan oleh seluruh anggota kelas.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <h2 class="text-xl font-bold mb-2 text-blue-600">Kutipan Hari Ini</h2>
+                <p class="text-slate-600 italic">"Coding hari ini untuk masa depan yang lebih baik."</p>
+            </div>
+        </section>
+
+        <!-- FITUR FOTO KELAS -->
+        <section class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <h2 class="text-xl font-bold mb-4 text-blue-600 flex items-center gap-2">
+                📸 Foto Kebersamaan Kelas
+            </h2>
+            <div class="overflow-hidden rounded-lg border border-slate-200 group">
+                <!-- Ganti foto-kelas.jpg dengan nama file foto kelas kalian -->
+                <img 
+                    src="c.jpeg" 
+                    alt="Foto Kelas XI RPL" 
+                    class="w-full h-80 object-cover group-hover:scale-105 transition duration-300 ease-in-out"
+                >
+            </div>
+            <p class="text-center text-sm text-slate-500 mt-3 font-medium">
+                Momen Kebersamaan Siswa-Siswi XI RPL
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer (Di-load dari footer.html / footer.js) -->
+    <div id="footer-container"></div>
+
+    <script src="navbar.js"></script>
+    <script src="footer.js"></script>
+</body>
+</html>
