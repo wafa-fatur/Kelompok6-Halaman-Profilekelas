@@ -4,48 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar Anggota - XI RPL</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
+    <div id="navbar-container"></div>
 
-    <main class="container">
-        <!-- Judul & Subjudul -->
-        <h1 class="title">Daftar Anggota Kelas</h1>
-        <p class="subtitle">Siswa-siswi anggota kelas XI RPL.</p>
+    <main class="flex-grow max-w-5xl w-full mx-auto p-6">
+        <h1 class="text-3xl font-bold text-slate-900 mb-2">Daftar Anggota Kelas</h1>
+        <p class="text-slate-600 mb-6">Siswa-siswi anggota kelas XI RPL.</p>
 
-        <!-- Container Grid / Cards -->
-        <div class="grid-anggota">
-            
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <!-- Anggota 1 -->
-            <div class="card-anggota">
-                <div class="avatar bg-biru-muda text-biru-tua">WF</div>
-                <h3 class="nama-anggota">Wafa fathurahman</h3>
-                <p class="tugas-anggota text-biru-tua">Project Manager</p>
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm text-center">
+                <div class="w-20 h-20 bg-blue-100 rounded-full mx-auto flex items-center justify-center text-blue-600 font-bold text-xl mb-4">
+                    WF
+                </div>
+                <h3 class="font-bold text-slate-800">Wafa fathurahman</h3>
+                <p class="text-xs text-blue-600 font-medium mb-2">Project Manager</p>
             </div>
 
             <!-- Anggota 2 -->
-            <div class="card-anggota">
-                <div class="avatar bg-hijau-muda text-hijau-tua">MF</div>
-                <h3 class="nama-anggota">Muhammad Fadli Adiyaksa</h3>
-                <p class="tugas-anggota text-hijau-tua">Developer ANGGOTA</p>
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm text-center">
+                <div class="w-20 h-20 bg-emerald-100 rounded-full mx-auto flex items-center justify-center text-emerald-600 font-bold text-xl mb-4">
+                    MF
+                </div>
+                <h3 class="font-bold text-slate-800">Muhammad Fadli Adiyaksa</h3>
+                <p class="text-xs text-emerald-600 font-medium mb-2">Developer PROFIL</p>
             </div>
 
             <!-- Anggota 3 -->
-            <div class="card-anggota">
-                <div class="avatar bg-ungu-muda text-ungu-tua">IP</div>
-                <h3 class="nama-anggota">Iman Putra Pratama</h3>
-                <p class="tugas-anggota text-ungu-tua">Developer KONTAK</p>
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm text-center">
+                <div class="w-20 h-20 bg-purple-100 rounded-full mx-auto flex items-center justify-center text-purple-600 font-bold text-xl mb-4">
+                    IP
+                </div>
+                <h3 class="font-bold text-slate-800">Iman Putra Pratama</h3>
+                <p class="text-xs text-purple-600 font-medium mb-2">Developer KONTAK</p>
             </div>
 
             <!-- Anggota 4 -->
-            <div class="card-anggota">
-                <div class="avatar bg-kuning-muda text-kuning-tua">RA</div>
-                <h3 class="nama-anggota">Raisya Alviani Siti Nurfauziyah</h3>
-                <p class="tugas-anggota text-kuning-tua">Developer PROFIL</p>
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm text-center">
+                <div class="w-20 h-20 bg-amber-100 rounded-full mx-auto flex items-center justify-center text-amber-600 font-bold text-xl mb-4">
+                    RA
+                </div>
+                <h3 class="font-bold text-slate-800">Raisya Alviani Siti Nurfauziyah</h3>
+                <p class="text-xs text-amber-600 font-medium mb-2">Developer ANGGOTA</p>
             </div>
-
         </div>
     </main>
 
+    <div id="footer-container"></div>
+    <script src="navbar.js"></script>
+    <script src="footer.js"></script>
 </body>
 </html>
