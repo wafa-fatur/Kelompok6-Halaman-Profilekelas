@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Kelas - XI RPL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
+    <div id="navbar-container"></div>
+
+    <main class="flex-grow max-w-5xl w-full mx-auto p-6 space-y-8">
+      <div>
+        <h1 class="text-3xl font-bold text-slate-900 mb-2">Profil Kelas XI RPL</h1>
+        <p class="text-slate-600">Informasi wali kelas, pengurus inti, serta visi & misi kelas.</p>
+      </div>
+
+      <!-- Wali Kelas -->
+      <section class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex items-center space-x-4">
+        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-2xl font-bold">WV</div>
+        <div>
+          <span class="text-xs font-semibold uppercase tracking-wider text-blue-600">Wali Kelas</span>
+          <h3 class="text-xl font-bold text-slate-800">Bu Widya Veneliati, S.Pd.</h3>
+          <p class="text-sm text-slate-500">Wali Kelas XI RPL 1</p>
+        </div>
+      </section>
+
+      <!-- Ketua & Wakil Kelas -->
+      <section class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex items-center space-x-4">
+          <div class="w-14 h-14 bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600 text-xl font-bold">IP</div>
+          <div>
+            <span class="text-xs font-semibold uppercase tracking-wider text-indigo-600">Ketua Kelas</span>
+            <h3 class="text-lg font-bold text-slate-800">IMAN PUTRA PRATAMA</h3>
+            <p class="text-sm text-slate-500">Ketua Murid XI RPL 1</p>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex items-center space-x-4">
+          <div class="w-14 h-14 bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600 text-xl font-bold">MZ</div>
+          <div>
+            <span class="text-xs font-semibold uppercase tracking-wider text-indigo-600">Wakil Ketua Kelas</span>
+            <h3 class="text-lg font-bold text-slate-800">MUHAMAD ZULMI AL FAUZAN</h3>
+            <p class="text-sm text-slate-500">Wakil Ketua Murid XI RPL 1</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Visi & Misi -->
+      <section class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
+        <div>
+          <h3 class="text-lg font-bold text-slate-900 border-b pb-2">Visi Kelas</h3>
+          <p class="text-slate-600 mt-2">Menjadi kelas yang solid, berprestasi di bidang rekayasa perangkat lunak, serta berakhlak mulia.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-slate-900 border-b pb-2">Misi Kelas</h3>
+          <ul class="list-disc list-inside text-slate-600 mt-2 space-y-1">
+            <li>Saling mendukung dalam pembelajaran pemrograman dan teknologi.</li>
+            <li>Menjaga kebersihan dan kekeluargaan antar anggota kelas.</li>
+            <li>Aktif berpartisipasi dalam kegiatan akademik maupun non-akademik.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-container"></div>
+    <script src="navbar.js"></script>
+    <script src="footer.js"></script>
+  </body>
+</html>
