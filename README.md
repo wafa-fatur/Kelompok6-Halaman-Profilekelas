@@ -14,8 +14,5 @@ Selamat datang di repository resmi untuk project **Halaman Profile Kelas** oleh 
 | **Fadli** | Developer |
 | *TBD* | Reviewer |
 
-## 🚀 Cara Menjalankan Project
-
-1. **Clone repository ini**
-   ```bash
-   git clone [https://github.com/wafa-fatur/Kelompok6-Halaman-Profilekelas.git](https://github.com/wafa-fatur/Kelompok6-Halaman-Profilekelas.git)
+## LINK REPOSITORY
+   https://github.com/wafa-fatur/Kelompok6-Halaman-Profilekelas.git
